@@ -30,13 +30,14 @@ h4 {
     margin: 0.1cm;
 }
 body {
-    background: linear-gradient(to bottom, red 75%, white 75%);
-    background-size: 100% 1000px;
+    background: linear-gradient(to bottom, red 85%, white 15%);
+    background-size: 100% 100vh;
     text-align: center;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
+
 }
 .green-button {
     background-color: rgb(59, 187, 59); 
