@@ -2,6 +2,10 @@
     font-family: headfont;
     src: url('font/Snowby.ttf');
 }
+@font-face {
+    font-family: text;
+    src: url('font/Christmas Stories.otf');
+}
 body {
     font-family: 'Arial', sans-serif;
     background: url('img/1000_F_225877344_3HwVGPdKzk43nSj7oWCdOAtj2dM7dicX.jpg');
@@ -16,7 +20,7 @@ body {
 
 .card {
     background: #fff;
-    border: 2px solid #d4af37;
+    border: 2px solid #d9232e;
     border-radius: 15px;
     padding: 20px;
     width: 400px;
@@ -26,8 +30,10 @@ body {
 
 .header h1 {
     color: #d9232e;
-    font-size: 24px;
-    margin: 10px 0;
+    font-size: 40px;
+    margin: 5px 0;
+    font-family: headfont;
+    letter-spacing: 0.2cm;
 }
 
 .decorations .bow {
@@ -52,6 +58,7 @@ body {
     border-radius: 8px;
     padding: 10px;
     margin: 15px 0;
+    
 }
 
 .music-player {
@@ -81,6 +88,7 @@ body {
     margin-top: 20px;
     font-size: 14px;
     color: #555;
+    
 }
 .snowflake {
     color: #fff;
